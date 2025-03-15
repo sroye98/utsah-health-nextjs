@@ -52,8 +52,8 @@ export function Testimonial() {
             <p className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
               Dr. Dutt took the time to learn my busy schedule with my kids
               which in turn helped us to determine the best time for me to
-              actually get my rest in. It wasn't only eating right and working
-              out I also needed to get my beatuy sleep.
+              actually get my rest in. It wasn&apos;t only eating right and
+              working out I also needed to get my beatuy sleep.
             </p>
             <h6 color="blue-gray" className="mb-0.5 text-sky-900">
               Tina
