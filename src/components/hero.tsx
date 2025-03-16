@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export function Hero() {
+const Hero = () => {
   return (
     <header className="bg-white p-8">
       <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
@@ -11,10 +11,17 @@ export function Hero() {
             Your Enthusiasm for a Healthier Life Starts Here
           </h1>
           <p className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-            I&apos;m Dr. Gini Dutt MD FACP DABOM, a practicing phyisician with
-            over 15 years of experience. I have been helping individuals reclaim
-            their health since 2010. Utsah Health is a membership-based practice
-            prodivind 1-on-1 care for those committed to a healthier lifestyle.
+            Shedding excess weight can be a challenging journey, and it becomes
+            even tougher when faced alone. For many individuals, achieving
+            sustainable weight loss goes beyond simply breaking habits and
+            increasing physical activity—it requires a customized approach
+            tailored to their unique needs.
+          </p>
+          <p className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
+            At Utsah Health, our dedicated healthcare professionals specialize
+            in personalized weight management and nutritional guidance. No
+            matter where you are in your weight loss journey, we’re here to
+            support you in reaching the next level.
           </p>
         </div>
         <Image
@@ -27,6 +34,6 @@ export function Hero() {
       </div>
     </header>
   );
-}
+};
 
 export default Hero;

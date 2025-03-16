@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-export function Testimonial() {
+const Testimonial = () => {
   const [active, setActive] = useState(3);
 
   const renderContent = (active: number) => {
@@ -132,4 +132,6 @@ export function Testimonial() {
       </div>
     </section>
   );
-}
+};
+
+export default Testimonial;
