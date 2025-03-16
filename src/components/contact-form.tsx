@@ -1,5 +1,7 @@
 "use client";
 
+import { CalendlyEmbed } from "./calendly-embed";
+
 export function ContactForm() {
   return (
     <section className="px-8 py-16">
@@ -18,16 +20,9 @@ export function ContactForm() {
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900">
               <h4 className="mb-2 text-white">Contact Information</h4>
               <p className="mx-auto mb-8 text-base !text-gray-500">
-                Fill up the form and our Team will get back to you shortly.
+                Fill up the form and one of our schedulers will get back to you
+                shortly.
               </p>
-              <div className="flex gap-5">
-                {/* <PhoneIcon className="h-6 w-6 text-white" /> */}
-                <h6 className="mb-2 text-white">+1(424) 535 3523</h6>
-              </div>
-              <div className="flex my-2 gap-5">
-                {/* <EnvelopeIcon className="h-6 w-6 text-white" /> */}
-                <h6 className="mb-2 text-white">hello@mail.com</h6>
-              </div>
               <div className="flex items-center gap-5">
                 <button className="text-white">
                   <i className="fa-brands fa-facebook text-lg" />
@@ -40,8 +35,8 @@ export function ContactForm() {
                 </button>
               </div>
             </div>
-            <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
-              <p>Calendly link to get scheduled</p>
+            <div className="w-full mt-8 md:mt-0 col-span-4 h-full rounded-lg">
+              <CalendlyEmbed url="https://calendly.com/saachi-roye/30min" />
             </div>
           </div>
         </div>
