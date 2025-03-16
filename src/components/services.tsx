@@ -1,5 +1,3 @@
-import { FaArrowRight } from "react-icons/fa";
-
 const SERVICES = [
   {
     name: "Obesity Management",
