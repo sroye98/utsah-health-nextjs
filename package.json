@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@appointlet/appointlet.js": "^3.0.7",
+    "@preline/collapse": "^3.0.0",
     "next": "15.2.2",
     "react": "^19.0.0",
-    "react-calendly": "^4.3.1",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0"
   },
