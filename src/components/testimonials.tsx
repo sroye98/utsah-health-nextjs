@@ -87,7 +87,7 @@ const Testimonial = () => {
                 <Image
                   height={10}
                   width={10}
-                  src="/utsah-health-nextjs/image/avatar1.jpg"
+                  src="/image/avatar1.jpg"
                   alt="spotify"
                   className={`cursor-pointer rounded-sm w-10 h-10 ${
                     active === 1 ? "opacity-100" : "opacity-50"
@@ -98,7 +98,7 @@ const Testimonial = () => {
                 <Image
                   height={10}
                   width={10}
-                  src="/utsah-health-nextjs/image/avatar2.jpg"
+                  src="/image/avatar2.jpg"
                   alt="spotify"
                   className={`cursor-pointer rounded-sm w-10 h-10 ${
                     active === 2 ? "opacity-100" : "opacity-50"
@@ -109,7 +109,7 @@ const Testimonial = () => {
                 <Image
                   height={10}
                   width={10}
-                  src="/utsah-health-nextjs/image/avatar3.jpg"
+                  src="/image/avatar3.jpg"
                   alt="spotify"
                   className={`cursor-pointer rounded-sm w-10 h-10 ${
                     active === 3 ? "opacity-100" : "opacity-50"
@@ -123,7 +123,7 @@ const Testimonial = () => {
                 width={768}
                 height={768}
                 alt="testimonial image"
-                src={`/utsah-health-nextjs/image/avatar${active}.jpg`}
+                src={`/image/avatar${active}.jpg`}
                 className="h-full rounded-lg w-full object-cover"
               />
             </div>
