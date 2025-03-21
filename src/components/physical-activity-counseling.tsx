@@ -1,8 +1,8 @@
 "use client";
 
 import { FaCheckCircle } from "react-icons/fa";
-import CalendlyPopup from "./calendly-popup";
-import Constants from "@/constants";
+// import CalendlyPopup from "./calendly-popup";
+// import Constants from "@/constants";
 
 const ServicePhysicalActivityCounseling = () => {
   return (
@@ -112,7 +112,7 @@ const ServicePhysicalActivityCounseling = () => {
           injuries, and enjoy movement. Let&apos;s build a **stronger, healthier
           you** together!
         </p>
-        <CalendlyPopup url={Constants.CALENDLY_URL} />
+        {/* <CalendlyPopup url={Constants.CALENDLY_URL} /> */}
       </div>
     </section>
   );

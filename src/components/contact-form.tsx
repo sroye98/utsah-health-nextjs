@@ -1,7 +1,7 @@
 "use client";
 
-import Constants from "@/constants";
-import CalendlyEmbed from "./calendly-embed";
+// import Constants from "@/constants";
+// import CalendlyEmbed from "./calendly-embed";
 
 const ContactForm = () => {
   return (
@@ -15,7 +15,7 @@ const ContactForm = () => {
           and let&apos;s embark on a journey of innovation and success.
         </p>
       </div>
-      <CalendlyEmbed url={Constants.CALENDLY_URL} />
+      {/* <CalendlyEmbed url={Constants.CALENDLY_URL} /> */}
     </section>
   );
 };

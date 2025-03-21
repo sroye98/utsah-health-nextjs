@@ -1,8 +1,8 @@
 "use client";
 
 import { FaCheckCircle } from "react-icons/fa";
-import CalendlyPopup from "./calendly-popup";
-import Constants from "@/constants";
+// import CalendlyPopup from "./calendly-popup";
+// import Constants from "@/constants";
 
 const ServiceObesityManagement = () => {
   return (
@@ -111,7 +111,7 @@ const ServiceObesityManagement = () => {
           we’re here to support you with **evidence-based care** and a
           **personalized plan** to help you achieve a healthier life.
         </p>
-        <CalendlyPopup url={Constants.CALENDLY_URL} />
+        {/* <CalendlyPopup url={Constants.CALENDLY_URL} /> */}
       </div>
     </section>
   );

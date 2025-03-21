@@ -28,7 +28,7 @@ const Hero = () => {
           width={1024}
           height={1024}
           alt="team work"
-          src="/image/gini-dutt.jpg"
+          src="/image/avatar1.jpg"
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>
