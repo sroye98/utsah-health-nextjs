@@ -13,7 +13,7 @@ const SERVICES: ServiceCardProps[] = [
     name: "Obesity Management",
     description:
       "Personalized strategies for effective weight loss and maintenance.",
-    url: "/popup",
+    url: "/services/obesity-management",
     icon: <FaWeightScale className="h-6 w-6" />,
   },
   {
