@@ -20,7 +20,7 @@ const Hero = () => {
           <p className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
             At Utsah Health, our dedicated healthcare professionals specialize
             in personalized weight management and nutritional guidance. No
-            matter where you are in your weight loss journey, we’re here to
+            matter where you are in your weight loss journey, we&apos;re here to
             support you in reaching the next level.
           </p>
         </div>
