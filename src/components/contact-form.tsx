@@ -1,5 +1,8 @@
 "use client";
 
+import Constants from "@/constants";
+import LeadsEmbed from "./leads-embed";
+
 // import Constants from "@/constants";
 // import CalendlyEmbed from "./calendly-embed";
 
@@ -16,6 +19,7 @@ const ContactForm = () => {
         </p>
       </div>
       {/* <CalendlyEmbed url={Constants.CALENDLY_URL} /> */}
+      <LeadsEmbed url={Constants.LEADS_URL} />
     </section>
   );
 };
