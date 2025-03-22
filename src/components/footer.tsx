@@ -14,15 +14,26 @@ const Footer = () => {
           </p>
           <ul className="flex gap-8 items-center">
             <li>
-              <Link href="/services/nutritional-counseling">
+              <Link
+                href="/services/nutritional-counseling"
+                className="hover:text-sky-600 text-sky-800"
+              >
                 Nutritional Counseling
               </Link>
             </li>
             <li>
-              <Link href="/services/obesity-management">Obesity Managment</Link>
+              <Link
+                href="/services/obesity-management"
+                className="hover:text-sky-600 text-sky-800"
+              >
+                Obesity Managment
+              </Link>
             </li>
             <li>
-              <Link href="/services/physical-activity-counseling">
+              <Link
+                href="/services/physical-activity-counseling"
+                className="hover:text-sky-600 text-sky-800"
+              >
                 Physical Activity Counseling
               </Link>
             </li>

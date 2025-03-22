@@ -41,23 +41,36 @@ export default function Home() {
               Your Enthusiasm for a Healthier Life Starts Here
             </h1>
             <p className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-              Shedding excess weight can be a challenging journey, and it
-              becomes even tougher when faced alone. For many individuals,
-              achieving sustainable weight loss goes beyond simply breaking
-              habits and increasing physical activity—it requires a customized
-              approach tailored to their unique needs.
+              <Link
+                href="/team/dr-gini-dutt"
+                className="text-sky-600 hover:text-sky-500 underline"
+              >
+                Dr. Gini Dutt
+              </Link>{" "}
+              is a board-certified Internal Medicine and Obesity Medicine
+              physician with over 15 years of experience. Recognizing the
+              limitations of traditional office visits for obesity management,
+              she founded a telemedicine practice dedicated to comprehensive
+              weight management.
             </p>
             <p className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-              At Utsah Health, our dedicated healthcare professionals specialize
-              in personalized weight management and nutritional guidance. No
-              matter where you are in your weight loss journey, we&apos;re here
-              to support you in reaching the next level.
+              Believing in the power of personal relationships in patient care,
+              she understands the multifaceted challenges of modern life,
+              particularly for those striving for successful weight loss. As a
+              physician, wife, and mother, she brings a unique perspective to
+              her practice. To address the need for flexible and accessible
+              care, she established a telemedicine obesity practice, enabling
+              patients to receive comprehensive support from the convenience of
+              their home, office, or any location. This approach reflects her
+              commitment to empowering patients to achieve their health goals
+              while navigating the demands of their daily lives.
             </p>
           </div>
           <Link href="/team/dr-gini-dutt">
             <Image
               width={1024}
               height={1024}
+              priority
               alt="team work"
               src="/image/gini-dutt.jpg"
               className="h-[36rem] w-full rounded-xl object-cover"
@@ -88,7 +101,7 @@ export default function Home() {
           </h1>
           <p className="mx-auto w-full lg:w-5/12 !text-gray-500">
             Ready to get started? Feel free to reach out through the contact
-            form, and let&apos;s embark on a journey of innovation and success.
+            form and let&apos;s embark on a journey of good health and function.
           </p>
           <div className="mt-6">
             <Link

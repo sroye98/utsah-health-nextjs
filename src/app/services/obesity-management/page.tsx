@@ -6,12 +6,12 @@ import { FaCheckCircle } from "react-icons/fa";
 const ObesityManagement = () => {
   return (
     <section className="max-w-5xl mx-auto px-6 py-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-sky-800 text-center mb-6">
         Obesity Management
       </h2>
       <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto">
-        Obesity is more than just diet and exercise—it’s a complex condition
-        influenced by genetics, metabolism, and lifestyle. At{" "}
+        Obesity is more than just diet and exercise—it&apos;s a complex
+        condition influenced by genetics, metabolism, and lifestyle. At{" "}
         <span className="font-semibold text-sky-800">Utsah Health</span>, we
         provide a science-backed, personalized approach to help you achieve
         long-term weight loss and improved health.
@@ -25,10 +25,11 @@ const ObesityManagement = () => {
           </h3>
           <ul className="space-y-3">
             {[
-              "Personalized Assessments",
-              "Evidence-Based Treatment",
+              "Physician-Led Weight Loss Program",
               "One-on-One Support",
               "Holistic & Sustainable Approach",
+              "Telemedicine & Remote Monitoring",
+              "Conduct appointments from anywhere",
             ].map((item, index) => (
               <li key={index} className="flex items-center text-gray-700">
                 <FaCheckCircle className="text-sky-500 mr-3" /> {item}
@@ -44,9 +45,9 @@ const ObesityManagement = () => {
           <ul className="space-y-3">
             {[
               "Struggling with long-term weight loss",
-              "BMI over 30 (or 27+ with health conditions)",
               "Emotional or stress eating habits",
               "Doctor-advised weight loss for health reasons",
+              "Patients with obesity-related health complications",
             ].map((item, index) => (
               <li key={index} className="flex items-center text-gray-700">
                 <FaCheckCircle className="text-sky-500 mr-3" /> {item}
@@ -58,7 +59,7 @@ const ObesityManagement = () => {
 
       {/* Our Approach */}
       <div className="mt-12">
-        <h3 className="text-2xl font-semibold text-gray-900 text-center mb-6">
+        <h3 className="text-2xl font-semibold text-sky-900 text-center mb-6">
           Our Approach to Obesity Treatment
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -76,21 +77,16 @@ const ObesityManagement = () => {
             {
               title: "Exercise & Movement Strategies",
               description:
-                "Personalized fitness plans that align with your lifestyle and health goals.",
+                "Provide guidance on physical activity, workouts, and lifestyle changes.",
             },
             {
-              title: "Behavioral & Mindset Coaching",
+              title: "Medication",
               description:
-                "Identifying triggers and developing strategies to build lifelong healthy habits.",
-            },
-            {
-              title: "Medication & Advanced Therapies",
-              description:
-                "FDA-approved weight-loss medications when medically necessary, supervised by professionals.",
+                "FDA-approved weight-loss medications when medically necessary, supervised by Dr. Gini Dutt.",
             },
           ].map((item, index) => (
             <div key={index} className="p-6 bg-white shadow-md rounded-lg">
-              <h4 className="text-lg font-semibold text-gray-900">
+              <h4 className="text-lg font-semibold text-sky-900">
                 {item.title}
               </h4>
               <p className="text-gray-600 mt-2">{item.description}</p>
@@ -101,14 +97,14 @@ const ObesityManagement = () => {
 
       {/* Call to Action */}
       <div className="mt-12 text-center">
-        <h3 className="text-2xl font-semibold text-gray-900">
+        <h3 className="text-2xl font-semibold text-sky-900">
           Start Your Journey Today!
         </h3>
         <p className="text-gray-700 mt-3 max-w-2xl mx-auto">
-          Obesity is a medical condition, not a personal failure. At{" "}
+          Obesity is a chronic medical disease, not a personal failure. At{" "}
           <span className="font-semibold text-sky-600">Utsah Health</span>,
-          we&apos;re here to support you with **evidence-based care** and a
-          **personalized plan** to help you achieve a healthier life.
+          we&apos;re here to support you with evidence-based care and a
+          personalized plan to help you achieve a healthier life.
         </p>
         <div className="mt-6">
           <Link

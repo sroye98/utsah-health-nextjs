@@ -16,7 +16,7 @@ const Header = () => {
             {/* <span className="text-sky-600 ml-2">Medical Weight-Loss</span> */}
           </Link>
           <div className="sm:hidden">
-            {/* <button
+            <button
               type="button"
               className="hs-collapse-toggle relative size-9 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
               id="hs-navbar-example-collapse"
@@ -25,7 +25,7 @@ const Header = () => {
               aria-label="Toggle navigation"
               data-hs-collapse="#hs-navbar-example"
             >
-              <svg
+              {/* <svg
                 className="hs-collapse-open:hidden shrink-0 size-4"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -56,8 +56,8 @@ const Header = () => {
                 <path d="M18 6 6 18" />
                 <path d="m6 6 12 12" />
               </svg>
-              <span className="sr-only">Toggle navigation</span>
-            </button> */}
+              <span className="sr-only">Toggle navigation</span> */}
+            </button>
           </div>
         </div>
         <div

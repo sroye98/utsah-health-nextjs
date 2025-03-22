@@ -6,21 +6,21 @@ import { FaCheckCircle } from "react-icons/fa";
 const NutritionalCounseling = () => {
   return (
     <section className="max-w-5xl mx-auto px-6 py-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-sky-800 text-center mb-6">
         Nutritional Counseling
       </h2>
       <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto">
         Nutrition plays a key role in overall health, but with so much
         conflicting information, it can be overwhelming. At{" "}
         <span className="font-semibold text-sky-600">Utsah Health</span>, we
-        provide **personalized, science-backed** guidance to help you develop a
-        sustainable, balanced diet that supports your health goals.
+        provide nutritional guidance to help you develop a sustainable, balanced
+        diet that supports your healthy weight-loss goals.
       </p>
 
       {/* Key Features */}
       <div className="grid md:grid-cols-2 gap-8 mt-10">
         <div className="p-6 bg-white shadow-md rounded-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">
+          <h3 className="text-xl font-semibold text-sky-900 mb-3">
             What Makes Our Program Unique?
           </h3>
           <ul className="space-y-3">
@@ -38,7 +38,7 @@ const NutritionalCounseling = () => {
         </div>
 
         <div className="p-6 bg-white shadow-md rounded-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">
+          <h3 className="text-xl font-semibold text-sky-900 mb-3">
             Who Can Benefit?
           </h3>
           <ul className="space-y-3">
@@ -58,7 +58,7 @@ const NutritionalCounseling = () => {
 
       {/* Our Approach */}
       <div className="mt-12">
-        <h3 className="text-2xl font-semibold text-gray-900 text-center mb-6">
+        <h3 className="text-2xl font-semibold text-sky-900 text-center mb-6">
           How Our Nutritional Counseling Works
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -101,14 +101,14 @@ const NutritionalCounseling = () => {
 
       {/* Call to Action */}
       <div className="mt-12 text-center">
-        <h3 className="text-2xl font-semibold text-gray-900">
+        <h3 className="text-2xl font-semibold text-sky-900">
           Ready to Take Control of Your Nutrition?
         </h3>
         <p className="text-gray-700 mt-3 max-w-2xl mx-auto">
           At <span className="font-semibold text-sky-600">Utsah Health</span>,
-          we empower you with **practical, evidence-based nutrition guidance**
-          to help you feel your best. Whether your goal is **weight loss, better
-          digestion, or long-term wellness**, we&apos;ll guide you every step of
+          we empower you with practical, evidence-based nutrition guidance to
+          help you feel your best. Whether your goal is weight loss, better
+          digestion, or long-term wellness, we&apos;ll guide you every step of
           the way.
         </p>
         <div className="mt-6">

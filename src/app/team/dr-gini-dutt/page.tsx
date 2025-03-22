@@ -14,16 +14,18 @@ const DrGiniDutt = () => {
           <span className="font-semibold text-sky-600">
             Gini Dutt, MD, FACP, DABOM
           </span>{" "}
-          is a board-certified **Internal Medicine** physician specializing in
-          **Obesity Medicine**. With over **19 years of experience**, she helps
-          patients achieve long-term health through **weight management,
-          preventive care, and chronic disease treatment**.
+          is a board-certified Internal Medicine physician specializing in
+          Obesity Medicine. With over 19 years of experience, she helps patients
+          achieve long-term health through weight management, preventive care,
+          and chronic disease treatment.
         </p>
       </div>
 
       {/* Image Section */}
       <div className="flex justify-center my-8">
         <Image
+          width={50}
+          height={50}
           src="/image/gini-dutt-avatar.jpg"
           alt="Dr. Gini Dutt"
           className="w-48 h-48 rounded-full shadow-md"
@@ -82,29 +84,11 @@ const DrGiniDutt = () => {
           Philosophy & Approach
         </h3>
         <p className="text-gray-700 max-w-3xl mx-auto mt-3">
-          Dr. Dutt believes that **every patient’s health journey is unique**.
-          She emphasizes **personalized treatment plans** focused on **long-term
-          wellness**, ensuring that patients feel supported in achieving their
+          Dr. Dutt believes that every patient&apos;s health journey is unique.
+          She emphasizes personalized treatment plans focused on long-term
+          wellness, ensuring that patients feel supported in achieving their
           health goals.
         </p>
-      </div>
-
-      {/* Medical Institutions */}
-      <div className="mt-12 text-center">
-        <h3 className="text-2xl font-semibold text-gray-900">
-          Affiliated Medical Institutions
-        </h3>
-        <ul className="text-gray-700 space-y-3 mt-4">
-          {[
-            "Baylor College of Medicine",
-            "Michael E. DeBakey VA Medical Center",
-            "HCA Houston Healthcare Southeast",
-          ].map((institution, index) => (
-            <li key={index} className="flex justify-center items-center">
-              <span className="text-sky-500 mr-2">🏥</span> {institution}
-            </li>
-          ))}
-        </ul>
       </div>
 
       {/* Call to Action */}
@@ -113,9 +97,8 @@ const DrGiniDutt = () => {
           Ready to Begin Your Health Journey?
         </h3>
         <p className="text-gray-700 mt-3 max-w-2xl mx-auto">
-          If you&apos;re ready to take control of your health with a **trusted
-          medical expert**, schedule a consultation with **Dr. Gini Dutt**
-          today.
+          If you&apos;re ready to take control of your health with a trusted
+          medical expert, schedule a consultation with Dr. Gini Dutt today.
         </p>
         <div className="mt-6">
           <Link
