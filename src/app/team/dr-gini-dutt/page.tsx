@@ -33,7 +33,8 @@ const DrGiniDutt = () => {
       </div>
 
       {/* Key Sections */}
-      <div className="grid md:grid-cols-2 gap-8 mt-8">
+      {/* <div className="grid md:grid-cols-2 gap-8 mt-8"> */}
+      <div className="mt-8">
         {/* Education & Training */}
         <div className="p-6 bg-white shadow-md rounded-lg">
           <h3 className="text-xl font-semibold text-gray-900 mb-3">
@@ -58,7 +59,7 @@ const DrGiniDutt = () => {
         </div>
 
         {/* Areas of Expertise */}
-        <div className="p-6 bg-white shadow-md rounded-lg">
+        {/* <div className="p-6 bg-white shadow-md rounded-lg">
           <h3 className="text-xl font-semibold text-gray-900 mb-3">
             Areas of Expertise
           </h3>
@@ -75,7 +76,7 @@ const DrGiniDutt = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
 
       {/* Philosophy */}
